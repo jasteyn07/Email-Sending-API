@@ -24,7 +24,7 @@ foreach($GetBody as $key){
 $mail = new PHPMailer(true);
 try {
 	$mail->isSMTP();
-	$mail->Host	 = 'smtp.gmail.com';
+	$mail->Host	 = 'goldkeytechnologies.com';
 	$mail->SMTPAuth = true;
 	$mail->Username = $_GET[$GetBody[0]];
 	$mail->Password = $_GET[$GetBody[4]];
